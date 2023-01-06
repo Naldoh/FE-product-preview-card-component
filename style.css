@@ -99,3 +99,9 @@ body {
 h1 {
   line-height: 1;
 }
+
+.product__new-price {
+  font-family: "Fraunces", serif;
+  font-size: 2rem;
+  color:var(--Dark-cyan);
+}
