@@ -78,7 +78,7 @@ body {
   max-width: 550px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 35em) {
   .product {
     grid-template-columns: 1fr 1fr;
     
@@ -97,6 +97,13 @@ body {
   gap: 1rem;
   padding: 1.5rem;
 }
+
+.product__class {
+  font-size: 0.925rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
 
 .product__title {
   font-size: 2rem;
